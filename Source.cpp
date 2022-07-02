@@ -22,7 +22,7 @@ int main()
 
 	for (int i = 0; i < SIZE; ++i)
 	{
-		pointer[i]->print_info();
+		pointer[i]->print();
 		std::wcout << (i == SIZE - 1 ? "" : "\n");
 	}
 
